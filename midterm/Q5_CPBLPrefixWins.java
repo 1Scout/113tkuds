@@ -24,9 +24,12 @@ public class Q5_CPBLPrefixWins {
             System.out.print(" "+prefix[i]);
         }
         System.out.println();
-        /*
-        * Time Complexity: O(n)
-        * 說明：使用一次迴圈-->O(n)
-        */
     }
 }
+/*
+* Time Complexity: O(n)
+* 說明：第一個for迴圈是O(n)
+       第二個for迴圈是O(n)
+       第三個for迴圈是O(n)
+       -->O(n)
+*/

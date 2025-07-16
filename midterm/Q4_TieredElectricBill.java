@@ -35,9 +35,11 @@ public class Q4_TieredElectricBill {
         }
 
         return (int)Math.round(sum);
-        /*
-        * Time Complexity: O(n)
-        * 說明：使用一次迴圈-->O(n)
-        */
     }
 }
+/*
+* Time Complexity: O(n)
+* 說明：第一個for迴圈是O(n)
+        calc中的迴圈是O(1)
+        -->O(n)
+*/

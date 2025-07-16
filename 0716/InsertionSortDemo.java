@@ -128,3 +128,15 @@ class InsertionSortDemo {
         System.out.println("最終結果：" + java.util.Arrays.toString(numbers2));
     }
 }
+/*
+* 插入排序 Time Complexity: O(n²)
+* 說明：陣列是已經排序時是O(n)
+        陣列是逆順序排序時是O(n²)
+        -->O(n²)
+*/
+/*
+* 二分插入排序 Time Complexity:O(n²)
+* 說明：使用二分搜尋是是O(n log n)
+        移動時是O(n²)
+        -->O(n²)
+*/

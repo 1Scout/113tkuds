@@ -39,7 +39,10 @@ public class Q1_THSRStopCounter {
         scanner.close();
         /*
         * Time Complexity: O(n)
-        * 說明：線性搜尋的迴圈是一次迴圈-->O(n)
+        * 說明：第一個for迴圈是O(n)
+               第二個for迴圈是O(n)
+               第36行是O(1)
+               -->O(n)
         */
     }
 }

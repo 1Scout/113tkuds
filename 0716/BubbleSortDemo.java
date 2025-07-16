@@ -113,3 +113,16 @@ class BubbleSortDemo {
         System.out.println("最終結果：" + java.util.Arrays.toString(numbers2));
     }
 }
+/*
+* 傳統氣泡 Time Complexity: O(n²)
+* 說明：-->每輪都是從左到右比較，把最大值冒泡到尾端
+            每輪都讓一個元素固定到最右邊，所以總共最多要 n-1 輪
+            -->O(n²)
+*/
+/*
+* 雞尾酒排序 Time Complexity:O(n²)
+* 說明：會先從左到右冒泡，把最大值送到右端
+       再從右到左冒泡把最小值送到左端
+       每輪處理兩端
+       -->O(n²)
+*/

@@ -25,9 +25,11 @@ public class Q3_NightMarketRanking {
         for (int i = 0;i<Math.min(5,n);i++) {
             System.out.printf("%.1f\n",scores[i]);
         }
-        /*
-        * Time Complexity: O(n²)
-        * 說明：使用雙重迴圈-->O(n²)
-        */
     }
 }
+ /*
+* Time Complexity: O(n²)
+* 說明：第一個for迴圈是O(n)
+        第二個for迴圈是O(n²)
+        -->O(n²)
+*/
